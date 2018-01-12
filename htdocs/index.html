@@ -154,16 +154,16 @@
               <span class="glyphicon glyphicon-random"></span> Aléatoire
             </button>
             <button id="btnconsume" type="button" class="btn btn-default">
-              <span class="glyphicon glyphicon-fire"></span> Consume
+              <span class="glyphicon glyphicon-fire"></span> Consommer
             </button>
             <button id="btnsingle" type="button" class="btn btn-default">
-              <span class="glyphicon glyphicon-star"></span> Single
+              <span class="glyphicon glyphicon-star"></span> Une fois
             </button>
             <button id="btncrossfade" type="button" class="btn btn-default">
-              <span class="glyphicon glyphicon-link"></span> Crossfade
+              <span class="glyphicon glyphicon-link"></span> Fondu enchaîné
             </button>
             <button id="btnrepeat" type="button" class="btn btn-default">
-              <span class="glyphicon glyphicon-repeat"></span> Repeat
+              <span class="glyphicon glyphicon-repeat"></span> répéter
             </button>
           </div>
           <div id="btn-outputs-block" class="btn-group-vertical btn-block btn-group-lg">
@@ -171,10 +171,10 @@
 
           <div id="btn-responsive-block" class="btn-group-vertical btn-block btn-group-lg">
             <button type="button" class="btn btn-default" onclick="socket.send('MPD_API_RM_ALL');">
-              <span class="glyphicon glyphicon-trash"></span> Clear queue
+              <span class="glyphicon glyphicon-trash"></span> Vider la queue
             </button>
             <a href="#" data-toggle="modal" data-target="#savequeue" class="btn btn-default">
-              <span class="glyphicon glyphicon-save"></span> Save queue
+              <span class="glyphicon glyphicon-save"></span> Sauvegarder la queue
             </a>
           </div>
 
@@ -197,9 +197,9 @@
           <h2 class="modal-title" id="settingsLabel"><span class="glyphicon glyphicon-wrench"></span> Settings</h2>
         </div>
         <div class="modal-body">
-          <h4><a href="http://www.ympd.org"><span class="glyphicon glyphicon-play-circle"></span> ympd</a>&nbsp;&nbsp;&nbsp;<small>MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS</small></h4>
+          <h4><a href="http://www.ympd.org"><span class="glyphicon glyphicon-play-circle"></span> ympd</a>&nbsp;&nbsp;&nbsp;<small>MPD Web GUI - écrit en C, avec des Websockets et Bootstrap/JS</small></h4>
           <p>
-          ympd is a lightweight MPD (Music Player Daemon) web client that runs without a dedicated webserver or interpreters like PHP, NodeJS or Ruby. It's tuned for minimal resource usage and requires only very litte dependencies.</p>
+			ympd est un client Web MPD (Music Player Daemon) léger qui fonctionne sans serveur web dédié ni interpréteur comme PHP, NodeJS ou Ruby. Il est réglé pour une utilisation minimale des ressources et ne nécessite que de très petites dépendances.</p>
           <h5>ympd uses following excellent software:</h5>
           <h6><a href="http://cesanta.com/docs.html">Mongoose</a> <small>GPLv2</small></h6>
           <h6><a href="http://www.musicpd.org/libs/libmpdclient/">libMPDClient</a> <small>BSD License</small></h6>
