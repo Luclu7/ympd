@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/luclu7/ympd-fr.svg)](https://travis-ci.org/luclu7/ympd-fr)
+[![Build Status](https://api.travis-ci.org/Luclu7/ympd-fr.svg)](https://travis-ci.org/luclu7/ympd-fr)
 ympd
 ====
 
@@ -17,6 +17,7 @@ Dependencies
 Unix Build Instructions
 -----------------------
 
+B
 1. install dependencies, cmake and libmpdclient are available from all major distributions.
 2. create build directory ```cd /path/to/src; mkdir build; cd build```
 3. create makefile ```cmake ..  -DCMAKE_INSTALL_PREFIX:PATH=/usr```
