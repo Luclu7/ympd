@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/notandy/ympd.svg)](https://travis-ci.org/notandy/ympd)
+[![Build Status](https://travis-ci.org/luclu7/ympd-fr.svg)](https://travis-ci.org/luclu7/ympd-fr)
 ympd
 ====
 
